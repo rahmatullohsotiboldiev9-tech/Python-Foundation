@@ -6,13 +6,13 @@ Functions in Python
 (4) Scope
 '''
 
-print("===== DEFINE vs CALL =====")
+print("===== DEFINE (parameter) vs CALL (argument) ===== ")
 # build in function > print() type()
 # Function - reusable block of code!
 # Instead of block {} in JAVA, Python uses inde...
 
 
-# DEFINE - build
+# DEFINE - build - parameter
 def greet(a):
     print(f"How do you do, {a}")
 
@@ -22,7 +22,7 @@ def greeting(b):
     return f"Hi {b}"
 
 
-# CALL - execute
+# CALL - execute - argument
 result1 = greet('Martin')
 print("result1:", result1)
 
